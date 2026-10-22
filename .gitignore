@@ -1,0 +1,36 @@
+# ── Secrets ────────────────────────────────────────────────────────
+.env
+*.env.*
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.Python
+
+# ── Memory runtime file (auto-generated) ──────────────────────────
+memory.json
+
+# ── Scratch / temp ─────────────────────────────────────────────────
+*.zip
+*.tmp
+*.log
+
+# ── OS ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
