@@ -14,7 +14,6 @@ btvn_03/
 ├── .gitignore                    # Bỏ qua .env, __pycache__, memory.json, ...
 ├── flight_agent.py               # Agent gốc: ReAct / Plan-then-Execute / Hybrid
 ├── flight_agent_memory.py        # Challenge A: Agent + Persistent Memory (JSON)
-├── gen_memory_report.py          # Script sinh file báo cáo .docx
 ├── 24521351_BTVN_03.pdf          # Báo cáo gốc (nộp trước)
 ├── 24521351_ChallengeA_Memory.docx  # Báo cáo Challenge A: Persistent Memory
 └── README.md                     # File này
