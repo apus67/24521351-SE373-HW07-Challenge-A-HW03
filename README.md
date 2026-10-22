@@ -1,8 +1,8 @@
 # BTVN #03 – Flight Booking Agent
 
-**Môn:** SE343 – Software Agent Engineering  
+**Môn:** SE373 – Kỹ thuật xây dựng hệ thống Agentic AI 
 **MSSV:** 24521351  
-**Họ tên:** *(điền tên của bạn)*
+**Họ tên:** Huỳnh An Phú
 
 ---
 
@@ -10,7 +10,6 @@
 
 ```
 btvn_03/
-├── .env                          # API key (KHÔNG commit — xem .gitignore)
 ├── .gitignore                    # Bỏ qua .env, __pycache__, memory.json, ...
 ├── flight_agent.py               # Agent gốc: ReAct / Plan-then-Execute / Hybrid
 ├── flight_agent_memory.py        # Challenge A: Agent + Persistent Memory (JSON)
@@ -24,7 +23,7 @@ btvn_03/
 
 ---
 
-## ⚙️ Cài đặt
+## Cài đặt
 
 ### 1. Yêu cầu
 
@@ -45,11 +44,10 @@ Tạo file `.env` trong cùng thư mục với nội dung:
 GOOGLE_API_KEY='your-google-api-key-here'
 ```
 
-> ⚠️ **Không bao giờ commit file `.env` lên GitHub!**
 
 ---
 
-## 🚀 Cách chạy
+## Cách chạy
 
 ### Agent gốc (`flight_agent.py`)
 
@@ -111,7 +109,7 @@ Sinh ra file `24521351_ChallengeA_Memory.docx` trong cùng thư mục.
 
 ---
 
-## 🧠 Kiến trúc Agent
+## iến trúc Agent
 
 ```
 User Request
@@ -146,14 +144,14 @@ User Request
 
 ---
 
-## 📄 Báo cáo
+## Báo cáo
 
 - **`24521351_BTVN_03.pdf`** — Báo cáo gốc (Harness ideas 1–6)
 - **`24521351_ChallengeA_Memory.docx`** — Báo cáo Challenge A: Persistent Memory
 
 ---
 
-## 🗂️ Tóm tắt Memory Design (Challenge A)
+## Tóm tắt Memory Design (Challenge A)
 
 | Câu hỏi | Trả lời |
 |---|---|
